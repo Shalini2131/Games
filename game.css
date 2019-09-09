@@ -1,0 +1,43 @@
+
+table{
+	width: 30%;
+	height: 70%;
+	background-color: white;
+	border-color: black;
+	margin-bottom: 200px;
+}
+.Sqr{
+	width: 40px;
+	height: 100px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18pt;
+
+}
+
+body{
+	 background-image: repeating-linear-gradient(190deg,black,blue);
+	 background-repeat:repeat;
+	 background-size: auto;
+	 padding-top: 120px;
+}
+.top{
+	text-align: center;
+}
+.Button{
+	position: absolute;
+	right: 582px;
+	top: 600px;
+	
+}
+h1{
+	color: red;
+	font-family: Verdana;
+	font-style: oblique;
+}
+#message{
+	background-blend-mode: overlay;
+	color: salmon;
+	border-color:blue;
+	text-align: center;
+}

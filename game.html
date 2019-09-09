@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TIC TAC TOE</title>
+	<link rel="stylesheet" type="text/css" href="game.css">
+	
+</head>
+<body onload="startGame();">
+	<h1 align="center" >Tic Tac Toe Game </h1>
+	<div id="message">
+	Start the game!!!
+	</div>
+	<table id="tab"align="center" border="1">
+
+		<tr>
+			<td id="s1" bgcolor="yellow" class="Sqr" onclick="nextMove(this)"></td>
+			<td id="s2" bgcolor="green" class="Sqr" onclick="nextMove(this)"></td>
+			<td id="s3" bgcolor="yellow" class="Sqr" onclick="nextMove(this)"></td>
+		</tr>
+		
+		<tr>
+			<td id="s4" bgcolor="green" class="Sqr" onclick="nextMove(this)"></td>
+			<td id="s5" bgcolor="yellow" class="Sqr" onclick="nextMove(this)"></td>
+			<td id="s6" bgcolor="green" class="Sqr" onclick="nextMove(this)"></td>
+		</tr>
+
+		<tr>
+			<td id="s7" bgcolor="yellow" class="Sqr" onclick="nextMove(this)"></td>
+			<td id="s8" bgcolor="green" class="Sqr" onclick="nextMove(this)"></td>
+			<td id="s9" bgcolor="yellow" class="Sqr" onclick="nextMove(this)"></td>
+		</tr>
+	</table>
+	<a href="" class="top"><button class="Button" id="click">Play again!!!</button></a>
+	<script src="game.js"></script>
+</body>
+
+</html>
